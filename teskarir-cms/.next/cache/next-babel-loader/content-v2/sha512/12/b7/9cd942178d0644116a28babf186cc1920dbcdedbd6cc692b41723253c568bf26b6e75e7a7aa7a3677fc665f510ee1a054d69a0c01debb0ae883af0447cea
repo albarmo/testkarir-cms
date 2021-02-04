@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { QoreClient } from \"@feedloop/qore-client\";\nimport createQoreContext from \"@feedloop/qore-react\";\nimport config from \"../qore.config.json\";\nimport schema from \"../qore.schema.json\";\nexport const client = new QoreClient(config);\nclient.init(schema);\nexport default createQoreContext(client);","map":null,"metadata":{},"sourceType":"module"}
